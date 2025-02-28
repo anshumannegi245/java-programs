@@ -1,0 +1,22 @@
+Explanation:
+
+Import Scanner:
+
+import java.util.Scanner; imports the Scanner class, which is used to get user input.
+Declare Array:
+
+int[] numbers = new int[10]; declares an integer array named numbers with a size of 10. This means it can hold 10 integer values.
+Input Loop:
+
+The for loop iterates 10 times (from i = 0 to i < 10).
+Inside the loop:
+System.out.print("Enter integer " + (i + 1) + ": "); prompts the user to enter an integer.
+numbers[i] = scanner.nextInt(); reads the integer entered by the user and stores it in the i-th element of the numbers array.
+Display Loop:
+
+Another for loop iterates through the numbers array.
+System.out.print(numbers[i] + " "); prints each element of the array, followed by a space.
+System.out.println(); prints a newline character at the end to move the cursor to the next line.
+Close Scanner:
+
+scanner.close(); closes the Scanner to release system resources.
